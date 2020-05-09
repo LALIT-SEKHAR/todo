@@ -9,8 +9,8 @@ const addlist = () => {
     let text = document.createTextNode(`${todo}`);
     li.appendChild(text);
     ullist.appendChild(li);
+    input.value = '';
 }
-
 
 buttonn.addEventListener('click', addlist);
 
