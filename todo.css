@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+}
+article{
+    height: 500px;
+    width: 300px;
+    /* background-color: aqua; */
+    box-shadow: 10px 10px 12px rgb(180, 180, 180);
+}
+.img{
+    overflow: hidden;
+    width: 100%;
+    height:180px;
+    border-radius: 20px 20px 0px 0px;
+
+    background-color: aquamarine;
+}
+.img img{
+    height: auto;
+    width: 100%;
+}
+.inputandbtn{
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+.inputandbtn input{
+    border: none;
+    background-color: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    padding: 0px 10px;
+    overflow: visible;
+    text-align: center;
+}
+.inputandbtn button{
+    font-size: 1em;
+    border: none;
+    background-color: orange;
+    height: 100%;
+    width: 30%;
+    border-radius: 0px 10px 10px 0px;
+    outline: none;
+}
+.inputandbtn button:active{
+    font-size: 0.9em;
+}
+.lists{
+    height: 270px;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(44, 243, 26);
+    color: rgb(43, 43, 43);
+    text-align: start;
+    padding: 10px 40px;
+}
+li{
+    list-style: decimal-leading-zero;
+    margin-bottom: 10px;
+    background-color: rgba(236, 236, 236, 0.877);
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
