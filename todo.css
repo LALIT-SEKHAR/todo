@@ -21,7 +21,7 @@ article{
 .img{
     overflow: hidden;
     width: 100%;
-    height:180px;
+    height:35%;
     border-radius: 20px 20px 0px 0px;
 
     background-color: aquamarine;
@@ -33,7 +33,7 @@ article{
 .inputandbtn{
     background-color: rgb(58, 58, 58);
     width: 100%;
-    height: 50px;
+    height: 10%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,7 +64,7 @@ article{
     font-size: 0.9em;
 }
 .lists{
-    height: 270px;
+    height: 55%;
     width: 100%;
     overflow: auto;
     background-color: rgb(44, 243, 26);
@@ -100,4 +100,14 @@ li{
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:active {
     background: rgba(255, 166, 0, 0.753); 
+  }
+  
+  @media (max-width: 500px){
+      article{
+          width: 100vw;
+          height: 100vh;
+      }
+      .img{
+          border-radius: 0px;
+      }
   }
